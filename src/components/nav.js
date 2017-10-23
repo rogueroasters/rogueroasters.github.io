@@ -16,7 +16,7 @@ class NavbarInstance extends Component {
         <Scrollchor to="#culture">
           <button type="button" id="culture-link" className="btn nav-links culture-link animated fadeInUp">Culture</button>
         </Scrollchor>
-        <a href="https://shop.rogueroasters.com"><button type="button" id="shop-link" className="btn nav-links shop-link animated fadeInUp">Shop</button></a>
+        <a href="https://shoprogueroasters.myshopify.com"><button type="button" id="shop-link" className="btn nav-links shop-link animated fadeInUp">Shop</button></a>
         <Scrollchor to="#social">
           <button type="button" id="social-link" className="btn nav-links social-link animated fadeInUp">Contact</button>
         </Scrollchor>
