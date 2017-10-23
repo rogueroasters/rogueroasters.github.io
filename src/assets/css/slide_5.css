@@ -1,0 +1,88 @@
+a:link {
+  text-decoration: none!important;
+}
+
+.parallax4 {
+  height: 740px;
+  background: #d4d4d4;
+}
+
+.wholesale-text {
+  color: #422E39;
+  padding-top: 3em;
+  padding-bottom: 3em;
+  text-align: center;
+  font-size: 3em;
+}
+
+.top-padding {
+  padding-top: 6em;
+}
+
+.learn-more-txt a {
+  color: #422E39;
+}
+
+.learn-more > h3 {
+  margin: auto;
+  width: 30%;
+  text-align: center;
+  padding: 33px;
+  border-radius: 20px;
+  color: #EDF9FF;
+  background: #025159;
+}
+
+.learn-more > h3:hover {
+  color: #025159;
+  background:#EDF9FF; 
+}
+
+.icons {
+  text-align: center;
+  padding: 1.4em;
+}
+.wholesale-text {
+  animation-delay: 500ms;
+}
+.a-anime {
+  animation-delay: 1s;
+}
+.b-anime {
+  animation-delay: 1.5s;
+}
+.c-anime {
+  animation-delay: 2s;
+}
+.d-anime {
+  animation-delay: 2.5s;
+}
+@media only screen and (max-width: 768px) {
+  .parallax3 {
+    min-height: 600px;
+  }
+  .parallax4 {
+    height: 700px;
+  }
+  .wholesale-text {
+    padding-top: 1em;
+  }
+  .icons {
+    padding: 0.6em;
+  }
+  .learn-more > h3 { 
+    padding: 2.5rem;
+    font-size: 1.5rem;
+  }
+}
+@media only screen and (min-width: 1400px) {
+  .parallax4 {
+    height: 1000px;
+  }
+}
+@media only screen and (max-width: 764px) {
+  .parallax3 {
+    background-size: cover;
+    background-position-x: -100px;
+  }
+}

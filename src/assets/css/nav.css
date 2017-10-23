@@ -1,0 +1,62 @@
+.buttontoolbar {
+  z-index: 1;
+  position: fixed;
+  padding-top: 1.5em;
+  padding-left: 2em;
+}
+
+.nav-links {
+  background: transparent;
+  color: mintcream;
+  display: inline-block;
+}
+
+.btn.nav-links:hover {
+  transition: all 500ms;
+  color: greenyellow;
+  border: 0.5px solid;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+#info-link {
+  animation-delay: 100ms;
+}
+#services-link {
+  animation-delay: 200ms;
+}
+#culture-link {
+  animation-delay: 300ms;
+}
+#shop-link {
+  animation-delay: 400ms;
+}
+#social-link {
+  animation-delay: 500ms;
+}
+
+@media only screen and (max-device-width : 667px) {
+  .buttontoolbar {
+    padding: 0;
+    margin: 0;
+  }
+  .btn.nav-links {
+    font-size: 1.2rem;
+    padding-top: 0.8rem;
+  }
+  #info-link {
+    font-size: 0.8rem;
+  }
+  #services-link {
+    font-size: 0.9rem;
+  }
+  #culture-link {
+    font-size: 1rem;
+  }
+  #shop-link {
+    font-size: 1.1rem;
+  }
+  #social-link {
+    font-size: 1.2rem;
+  }
+}
